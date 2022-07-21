@@ -14,12 +14,10 @@ const routes: Routes = [
   {
     path: 'admin/view/:id',
     component: ViewRegistrationComponent,
-    canActivate: [AuthGuard]
   },
   {
     path: 'admin',
     component: AdminComponent,
-    canActivate: [AuthGuard]
   },
   {
     path: 'callback',
